@@ -188,6 +188,9 @@ p {
 
 @media (max-width: 767px) {
 
+  .Modern-Slider .info {
+    text-align: center;
+  }
 
 }
 
