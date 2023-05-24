@@ -70,7 +70,7 @@ jQuery(document).ready(function($) {
 
 
 
-        var contentSection = $('.content-section, .main-banner');
+        var contentSection = $('.contenido__section, .main-banner');
         var navigation = $('nav');
         
         //when a nav link is clicked, smooth scroll to the section

@@ -1,0 +1,29 @@
+body {
+    font-family: var(--fuente-2);
+}
+
+p {
+    color: var(--color-texto1);
+}
+
+.contacto__redes__sociales {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 3em;
+}
+
+.contacto__redes__sociales a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--naranja);
+    color: var(--color-texto-2);
+    text-decoration: none;
+
+    margin: 0 1em;
+    width: 2em;
+    height: 2em;
+    border-radius: 2em;
+}
