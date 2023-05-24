@@ -27,3 +27,125 @@ p {
     height: 2em;
     border-radius: 2em;
 }
+
+
+#socio .tabs {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    height: 90px;
+    width: 100%;
+    background-color: #eee;
+    border-bottom: 10px solid var(--naranja);
+  }
+  
+  #socio .tabs li {
+    display: inline-block;
+    text-align: center;
+    width: calc(100%/2);
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #socio .tabs a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    color: #232323;
+    font-size: 19px;
+    line-height: 80px;
+    font-weight: 600;
+    transition: 0.5s;
+  }
+  
+  #socio .tabs a:hover {
+    color: var(--naranja);
+  }
+  
+  
+  #socio .tabs .active:hover {
+    color: #fff;
+  }
+  
+  #socio .tabs .active {
+    background-color: var(--naranja);
+    color: #fff;
+  }
+  
+  .tabgroup {
+    background-color: #f4f4f4;
+    padding: 20px 30px;
+  }
+  
+  .clearfix:after {
+    content:"";
+    display:table;
+    clear:both;
+  }
+  
+  #socio .tabgroup ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  #socio .tabgroup ul li {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #socio .tabgroup ul li:last-child {
+    border-bottom: none;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+  }
+  
+  #socio .tabgroup ul li img {
+    float: left;
+    margin-right: 30px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  #socio .tabgroup ul li .text-content {
+    display: inline;
+  }
+  
+  #socio .item .text-content h4 {
+    padding-top: 7.5px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 21px;
+    font-weight: 600;
+    color: #232323;
+    letter-spacing: 0.5px;
+  }
+  
+  #socio .item .text-content span {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #7a7a7a;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+  }
+  
+  #socio .item .text-content ul li {
+    display: block;
+    text-align: center;
+  }
+  #socio .item .text-content .extras {
+    display: block;
+    text-align: center;
+  }
+  
+  #socio .item .text-content .boton__resaltado {
+    margin-top: 25px;
+    text-align: center;
+  }
