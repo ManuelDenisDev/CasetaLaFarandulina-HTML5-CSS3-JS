@@ -22,7 +22,7 @@ p {
     color: var(--color-texto-2);
     text-decoration: none;
 
-    margin: 0 1em;
+    margin: 0 0.5em;
     width: 2em;
     height: 2em;
     border-radius: 2em;
@@ -149,3 +149,63 @@ p {
     margin-top: 25px;
     text-align: center;
   }
+
+
+  .nuestras__comidas__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .nuestras__comidas__img img {
+    height: 800px;
+  }
+
+
+
+  /* Responsive Style */
+
+@media (max-width: 992px) {
+
+  .contacto__redes__sociales {
+    font-size: 2em;
+}
+
+.contacto__redes__sociales a {
+    margin: 0 0.5em;
+    width: 2em;
+    height: 2em;
+    border-radius: 2em;
+}
+
+.nuestras__comidas__img img {
+  height: 600px;
+}
+
+}
+
+
+@media (max-width: 767px) {
+
+
+}
+
+@media (max-width: 690px) {
+  .contacto__redes__sociales {
+    font-size: 1.2em;
+}
+
+  .contacto__redes__sociales a {
+    margin: 0 0.2em;
+    width: 2em;
+    height: 2em;
+    border-radius: 2em;
+}
+
+.nuestras__comidas__img img {
+  height: 400px;
+}
+
+
+}
